@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cikalongfood - Home Page</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between items-center h-16 p-5 border border-b-slate-200">
+            <div class="wrapper flex items-center justify-start">
+                <a href="" class="text-slate-900 font-semibold text-md">Cikalongfood</a>
+            </div>
+            <div class=" wrapper flex justify-center items-center"></div>
+            <div class=" wrapper flex justify-end items-center">
+                <div class="wrapper">
+                    <button id="toggleButton"><span class="material-symbols-outlined">menu</span></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <nav class="flex justify-around items-center fixed bottom-0 w-full bg-white border-t border-slate-200 h-16 z-10">
+        <div class="wrapper flex justify-center items-center">
+            <ul class="flex justify-around items-center gap-10">
+                <li><a href="" class=""><span class="material-symbols-outlined">home</span></a></li>
+                <li><a href="" class=""><span class="material-symbols-outlined">shopping_bag</span></a></li>
+                <li><a href="./page/chat.html" class=""><span class="material-symbols-outlined">chat_bubble</span></a>
+                </li>
+                <li><a href="" class=""><span class="material-symbols-outlined">shopping_cart</span></a></li>
+                <li><a href="" class=""><span class="material-symbols-outlined">person</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="wrapper hidden" id="toggleMenu">
+            <div class="wrapper h-screen absolute w-screen bg-white z-10">
+                    <div class="wrapper flex flex-col items-center justify-center mt-20">
+                        <button class="mt-5 bg-blue-600 w-20 p-2 rounded-md"><a href="" class="text-md font-semibold text-white">Login</a></button>
+                    <button class="mt-5 bg-blue-600 w-20 p-2 rounded-md"><a href="" class="text-md font-semibold text-white">Daftar</a></button>
+                    </div>
+            </div>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./public/Green Natural Healthy Food Menu Banner.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/White and Yellow Delivery Services Landscape Banner (1).png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./public/Orange and Green Abstract Shapes Free Shipping Nationwide Banner.png">
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="wrapper flex flex-col justify-center p-5">
+            <div class="wrapper grid justify-center grid-cols-4 gap-5">
+                <div class="wrapper">
+                    <div class="wrapper border border-slate-300 p-4 rounded-md shadow-sm flex justify-center">
+                        <span class="material-symbols-outlined">coffee</span>
+                    </div>
+                    <div class="wrapper flex justify-center mt-2">
+                        <a href="" class="text-xs">Drink</a>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="wrapper border border-slate-300 p-4 rounded-md shadow-sm flex justify-center">
+                        <span class="material-symbols-outlined">fastfood</span>
+                    </div>
+                    <div class="wrapper flex justify-center mt-2">
+                        <a href="" class="text-xs">Food</a>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="wrapper border border-slate-300 p-4 rounded-md shadow-sm flex justify-center">
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                    <div class="wrapper flex justify-center mt-2">
+                        <a href="" class="text-xs">Cart</a>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="wrapper border border-slate-300 p-4 rounded-md shadow-sm flex justify-center">
+                        <span class="material-symbols-outlined">shopping_bag</span>
+                    </div>
+                    <div class="wrapper flex justify-center mt-2">
+                        <a href="" class="text-xs">Shop</a>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="wrapper border border-slate-300 p-4 rounded-md shadow-sm flex justify-center">
+                        <span class="material-symbols-outlined">group</span>
+                    </div>
+                    <div class="wrapper flex justify-center mt-2">
+                        <a href="./page/driver.html" class="text-xs">Driver</a>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="wrapper border border-slate-300 p-4 rounded-md shadow-sm flex justify-center">
+                        <span class="material-symbols-outlined">Chat</span>
+                    </div>
+                    <div class="wrapper flex justify-center mt-2">
+                        <a href="./page/chat.html" class="text-xs">Chat</a>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="wrapper border border-slate-300 p-4 rounded-md shadow-sm flex justify-center">
+                        <span class="material-symbols-outlined">Payments</span>
+                    </div>
+                    <div class="wrapper flex justify-center mt-2">
+                        <a href="" class="text-xs">Tarif</a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper mt-10">
+                <div class="wrapper">
+                    <div class="wrapper">
+                        <h1 class="text-md font-semibold">Promo</h1>
+                    </div>
+                    <div class="wrapper mt-5">
+                        <img src="./public/Biru Putih Ilustrasi Modern Promo Diskon Tahun Baru Banner.png"
+                            class="w-full rounded-lg">
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper mt-10">
+                <div class="wrapper">
+                    <div class="wrapper">
+                        <h1 class="text-md font-semibold">Acara</h1>
+                    </div>
+                    <div class="wrapper mt-5">
+                        <img src="./public/Banner Event Olahraga Jalan Modern 3D Ilustratif Putih Merah.png"
+                            class="w-full rounded-lg">
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper mt-20">
+                <div class="wrapper">
+                    <div class="wrapper">
+                        <h1 class="text-md font-semibold">Testimoni</h1>
+                    </div>
+                    <div class="wrapper mt-5">
+                        <div class="wrapper" data-aos="fade-right">
+                            <div class="wrapper flex justify-center">
+                                <img src="./public/Desain tanpa judul (2).png" class="h-14 w-14 rounded-full">
+                            </div>
+                            <div class="wrapper flex justify-center flex-col items-center mt-2">
+                                <p1 class="text-md font-sans">"Cikalongfood sangat memudahkan untuk</p1>
+                                <p1 class="text-md font-sans">mencari makanan di daerah Cikalong Wetan."</p1>
+                                <p1 class="text-md font-sans font-bold">-women</p1>
+                            </div>
+                        </div>
+                        <div class="wrapper mt-10" data-aos="fade-left">
+                            <div class="wrapper flex justify-center">
+                                <img src="./public/Desain tanpa judul (3).png" class="h-14 w-14 rounded-full">
+                            </div>
+                            <div class="wrapper flex justify-center flex-col items-center mt-2">
+                                <p1 class="text-md font-sans">"Cikalongfood sangat memudahkan untuk</p1>
+                                <p1 class="text-md font-sans">mencari makanan di daerah Cikalong Wetan."</p1>
+                                <p1 class="text-md font-sans font-bold">-Antoni</p1>
+                            </div>
+                        </div>
+                        <div class="wrapper mt-10" data-aos="fade-right">
+                            <button class="bg-black p-2 rounded-md"><a href="" class="text-white text-xs">Beri ulasan</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper mt-20">
+                <div class="wrapper">
+                    <div class="wrapper">
+                        <h1 class="text-md font-semibold">Didukung oleh</h1>
+                    </div>
+                    <div class="wrapper mt-20 flex justify-center">
+                        <img src="./public/Red Minimalist Restaurant Logo.png"
+                            class="w-40 rounded-xl shadow-lg animate-pulse"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper p-5 mb-16">
+            <div class="wrapper mt-10">
+                <div class="wrapper">
+                    <div class="wrapper flex justify-center mt-5">
+                        <div class="wrapper flex justify-center border-t border-slate-200 w-full">
+                            <p1 class="mt-2">&copy;2024 Cikalongfood</p1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./src/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+        const swiper = new Swiper('.swiper', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        })
+    </script>
+</body>
+
+</html>

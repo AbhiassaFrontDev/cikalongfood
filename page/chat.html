@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cikalongfood - Chat</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <header>
+        <nav class="flex justify-center items-center p-5 border border-slate-200">
+            <div class="wrapper">
+                <a href="" class="text-md font-semibold">Chat</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="wrapper h-screen flex justify-center items-center border flex-col">
+            <div class="wrapper flex justify-center items-center border flex-col">
+                <form class="flex justify-center items-center border flex-col">
+                    <input type="text" id="nama" placeholder="Nama">
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="text" id="pesan" placeholder="Pesan">
+                    <button type="button" id="kirim">Kirim</button> 
+                </form>
+            </div>
+        </div>
+    </main>
+    <main>
+        <nav class="flex justify-around items-center fixed bottom-0 w-full bg-white border-t border-slate-300 h-16 z-10">
+            <div class="wrapper flex justify-center items-center">
+                <ul class="flex justify-around items-center gap-10">
+                    <li><a href="../index.html" class=""><span class="material-symbols-outlined">home</span></a></li>
+                    <li><a href="" class=""><span class="material-symbols-outlined">shopping_bag</span></a></li>
+                    <li><a href="./page/chat.html" class=""><span class="material-symbols-outlined">chat_bubble</span></a></li>
+                    <li><a href="" class=""><span class="material-symbols-outlined">shopping_cart</span></a></li>
+                    <li><a href="" class=""><span class="material-symbols-outlined">person</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../src/config.js"></script>
+    <script src="../src/main.js"></script>
+</body>
+</html>
